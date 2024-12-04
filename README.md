@@ -2,7 +2,7 @@
 
 **Job Tracker** is a simple and intuitive chrome extension that helps users keep track of job applications. It allows users to manage job details like title, description, status, and notes.
 
-# How we built it
+# How I built it
 
 - **Languages**: HTML, CSS, JavaScript.
 - **Storage**: chrome.storage.local (for storing job data locally in the browser).
