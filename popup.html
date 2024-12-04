@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Job Tracker</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <h2>Job Tracker</h2>
+
+  <!-- Job Addition Form -->
+  <div class="form-container">
+    <input type="text" id="jobTitle" placeholder="Job Title" required />
+    <textarea id="jobDescription" placeholder="Job Description" required></textarea>
+    <textarea id="jobNotes" placeholder="Add Notes"></textarea>
+    
+    <!-- Dropdown for Job Status -->
+    <select id="jobStatus">
+      <option value="Need to Apply">Need to Apply</option>
+      <option value="Applied">Applied</option>
+      <option value="Need Referral">Need Referral</option>
+      <option value="Interview Scheduled">Interview Scheduled</option>
+      <option value="Job Received">Job Received</option>
+    </select>
+
+    <button id="saveJob">Save Job</button>
+  </div>
+
+  <div id="jobList"></div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
