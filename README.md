@@ -20,3 +20,8 @@
 - Enable Developer mode.
 - Click Load unpacked and select the folder containing the extension files.
 4. The extension will now be ready for use.
+
+# Output:
+![Img-1](img/img-1.png)
+![Img-2](img/img-2.png)
+![Img-3](img/img-3.png)
